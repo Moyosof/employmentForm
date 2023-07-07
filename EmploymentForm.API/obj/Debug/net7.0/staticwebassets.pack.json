@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\selfie\\Screenshot (2).png",
+      "PackagePath": "staticwebassets\\FormImages\\selfie\\Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\uploadBack\\Screenshot (3).png",
+      "PackagePath": "staticwebassets\\FormImages\\uploadBack\\Screenshot (3).png"
+    },
+    {
+      "Id": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\uploadFront\\Screenshot (8).png",
+      "PackagePath": "staticwebassets\\FormImages\\uploadFront\\Screenshot (8).png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EmploymentForm.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EmploymentForm.API.props",
+      "PackagePath": "build\\EmploymentForm.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EmploymentForm.API.props",
+      "PackagePath": "buildMultiTargeting\\EmploymentForm.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EmploymentForm.API.props",
+      "PackagePath": "buildTransitive\\EmploymentForm.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

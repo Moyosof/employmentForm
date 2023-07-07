@@ -1,0 +1,98 @@
+﻿@model EmploymentFormWeb.Models.FormDto
+
+@{
+    ViewData["Title"] = "FormCreate";
+}
+<h1>Create</h1>
+
+<h4>Form Requirement</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="FormCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="col-2">
+                <label asp-for="Name" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="PhoneNumber" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="BirthDate" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="Email" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="HomeAddress" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="HomeAddress" class="form-control" />
+                <span asp-validation-for="HomeAddress" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="ReferredToUs" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3 ">
+                <div class="horizontal-input">
+                    <input asp-for="ReferredToUs" class="form-control" />
+                    <span asp-validation-for="ReferredToUs" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-2">
+                <label asp-for="SelfiePhoto" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="SelfiePhoto" class="form-control" />
+                <span asp-validation-for="SelfiePhoto" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="Reference" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Reference" class="form-control" />
+                <span asp-validation-for="Reference" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="UploadFrontID" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="UploadFrontID" class="form-control" />
+                <span asp-validation-for="UploadFrontID" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label asp-for="UploadBackID" class="control-label pt-2" style="font-size:20px;"></label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="UploadBackID" class="form-control" />
+                <span asp-validation-for="UploadBackID" class="text-danger"></span>
+            </div>
+            <div class="col-5 offset-2">
+
+                <a asp-action="FormSuccess" class="btn-primary btn form-control ">submit</a>
+            </div>
+           @* <div class="col-5">
+                 <input type="submit" value="Create" class="btn btn-success form-control" />
+
+            </div>*@
+        </form>
+    </div>
+
+</div>

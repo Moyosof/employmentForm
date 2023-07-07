@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "kQL4aPBocdUmzu4aT/tSk6Ud7IXxmfNMw2x+w/wJoLM=",
+  "Source": "EmploymentForm.API",
+  "BasePath": "_content/EmploymentForm.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EmploymentForm.API\\wwwroot",
+      "Source": "EmploymentForm.API",
+      "ContentRoot": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\",
+      "BasePath": "_content/EmploymentForm.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\selfie\\Screenshot (2).png",
+      "SourceId": "EmploymentForm.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\",
+      "BasePath": "_content/EmploymentForm.API",
+      "RelativePath": "FormImages/selfie/Screenshot (2).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FormImages\\selfie\\Screenshot (2).png"
+    },
+    {
+      "Identity": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\uploadBack\\Screenshot (3).png",
+      "SourceId": "EmploymentForm.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\",
+      "BasePath": "_content/EmploymentForm.API",
+      "RelativePath": "FormImages/uploadBack/Screenshot (3).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FormImages\\uploadBack\\Screenshot (3).png"
+    },
+    {
+      "Identity": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\FormImages\\uploadFront\\Screenshot (8).png",
+      "SourceId": "EmploymentForm.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentForm.API\\wwwroot\\",
+      "BasePath": "_content/EmploymentForm.API",
+      "RelativePath": "FormImages/uploadFront/Screenshot (8).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FormImages\\uploadFront\\Screenshot (8).png"
+    }
+  ]
+}

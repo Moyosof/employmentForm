@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w8tjgD34aX1JqN6BS9sga0u3aYTwqunR6EXHw85bkuQqHDIjuQaaywJTWBW2x/ZhY+Y7ZCj5iQu4n/8tpKQdiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taiwo\\Desktop\\EmploymentForm\\EmploymentFormWeb\\EmploymentFormWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taiwo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
