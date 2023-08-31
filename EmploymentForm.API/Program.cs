@@ -14,6 +14,7 @@ builder.Services.ConfigureConnectionString(builder.Configuration);
 
 //Configure Repository
 builder.Services.ConfigureRepository();
+builder.Services.ConfigureHttpClient();
 
 var app = builder.Build();
 

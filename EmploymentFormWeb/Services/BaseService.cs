@@ -8,11 +8,11 @@ namespace EmploymentFormWeb.Services
     public class BaseService : IBaseService
     {
         public ResponseDto responseModel { get; set; }
-        public IHttpClientFactory _httpClient { get; set; }
+        public IHttpClientFactory httpClient { get; set; }
         public BaseService(IHttpClientFactory httpClient) 
         {
-            responseModel= new ResponseDto();
-            _httpClient = httpClient;
+            this.responseModel= new ResponseDto();
+            this.httpClient = httpClient;
         }
         //public ResponseDto responseModel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
@@ -25,7 +25,7 @@ namespace EmploymentFormWeb.Services
         {
             try
             {
-                var client = _httpClient.CreateClient("FormFieldAPI");
+                var client = httpClient.CreateClient("FormFieldAPI");
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequest.Url);

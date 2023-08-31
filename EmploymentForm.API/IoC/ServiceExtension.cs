@@ -24,5 +24,13 @@ namespace EmploymentForm.API.IoC
             services.AddScoped<IFormField, FormFieldService>();
         }
         #endregion
+
+        public static void ConfigureHttpClient(this IServiceCollection services)
+        {
+            services.AddHttpClient("UserApiClient", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:44392/"); 
+            });
+        }
     }
 }

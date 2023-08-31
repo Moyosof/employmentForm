@@ -27,7 +27,7 @@ namespace EmploymentFormWeb.Services
             return await this.SendAsync<T>(new ApiRequest()
             {
                 ApiType = SD.ApiType.GET,
-                Url = SD.FormAPIBase + "/api/formField/",
+                Url = SD.FormAPIBase + "/api/formField",
                 AccessToken = ""
             });
         }

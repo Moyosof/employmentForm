@@ -47,32 +47,6 @@ namespace EmploymentForm.API.Infrastructure.Contract
             await _unitOfWork.SaveAsync();
             return field;
         }
-
-        //public async Task<List<FormField>> GetAllDetails(CancellationToken cancellation)
-        //{
-        //    var result = _unitOfWork
-
-        //    var results = await _unitOfWork.Repository.ReadAllQuery().Select(c => new FormField
-        //    {
-        //        Id = c.Id,
-        //        Name = c.Name,
-        //        PhoneNumber = c.PhoneNumber,
-        //        BirthDate = c.BirthDate,
-        //        Email = c.Email,
-        //        HomeAddress = c.HomeAddress,
-        //        ReferredToUs = c.ReferredToUs,
-        //        SelfiePhoto = c.SelfiePhoto,
-        //        Reference = c.Reference,
-        //        UploadFrontID = c.UploadFrontID,
-        //        UploadBackID = c.UploadBackID
-        //    }).ToListAsync(cancellation);
-
-        //    List<FormField> result = new List<FormField>();
-        //    foreach (var resultItem in results)
-        //    {
-        //        result.ite
-        //    }
-        //    return result;
         
 
         public IEnumerable<FormField> GetAllDetails()
